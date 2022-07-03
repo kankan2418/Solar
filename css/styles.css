@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+h3{
+  margin: 20px 0 20px 0;
+  font-family: 'Philosopher', sans-serif;
+  color: #DCD7C9;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+p{
+  color: #A5BECC;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: normal;
+}
+hr{
+  position: absolute;
+  width: 32%;
+  top:55px;
+  left: 130px;
+  color: #4B5D67;
+  opacity: 0.2;
+  size: 10px;
+}
+
+ul{
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+
+.top-container a:hover{
+  border-bottom: 2px solid #A5BECC;
+  padding: 0;
+}
+
+.logo{
+  position: absolute;
+  border-radius: 50%;
+  top:38px;
+  left:34px;
+}
+.main{
+  position: relative;
+  margin: 0;
+}
+.bg-image{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.top-container{
+  background-color: rgba(180, 180, 180, 0.2);
+  width: 60%;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.top-container a{
+  float: left;
+  text-align: center;
+}
+
+.num{
+  color: white;
+  margin-right: 10px;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+
+
+.middle-container{
+   position: absolute;
+   width: 32%;
+   bottom: 100px;
+   left: 130px;
+  background: rgba(76, 175, 80, 0)
+}
+.top-bio{
+  font-size: 1.3rem;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.middle-bio{
+  font-size: 8rem;
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+
+.bottom-container{
+   background-color: #DCD7C9;
+   position: absolute;
+   width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  bottom: 120px;
+  right: 170px;
+}
+.bottom{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 1.5rem;
+  color: black;
+}
